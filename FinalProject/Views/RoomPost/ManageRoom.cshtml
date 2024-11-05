@@ -70,7 +70,6 @@
                                 <p class="mb-0 mt-4">@item.RoomAddress</p>
                             </td>
                             <td>
-                                <!-- Nút Cập nhật (chỉ biểu tượng) -->
                                 <form asp-action="UpdateFavoriteItem" asp-controller="FavoriteList" method="post" style="display: inline;">
                                     <input type="hidden" name="idPhong" value="@item.PostId" />
                                     <button type="submit" class="btn btn-md rounded-circle bg-light border mt-4" title="Update">
@@ -78,7 +77,6 @@
                                     </button>
                                 </form>
 
-                                <!-- Nút Xóa (chỉ biểu tượng) -->
                                 <form asp-action="@(User.Identity.IsAuthenticated ? "DeleteFavoriteItemAuthenticated" : "DeleteFavoriteItemAnonymous")"
                                       asp-controller="FavoriteList" method="post" style="display: inline;">
                                     <input type="hidden" name="idPhong" value="@item.PostId" />
@@ -87,7 +85,6 @@
                                     </button>
                                 </form>
 
-                                <!-- Nút Đăng ký dịch vụ (chỉ biểu tượng) -->
                                 <form asp-action="RegisterService" asp-controller="FavoriteList" method="post" style="display: inline;">
                                     <input type="hidden" name="idPhong" value="@item.PostId" />
                                     <button type="submit" class="btn btn-md rounded-circle bg-light border mt-4" title="Register Service">
