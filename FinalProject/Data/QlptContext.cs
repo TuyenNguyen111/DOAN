@@ -13,6 +13,9 @@ public partial class QlptContext : DbContext
         : base(options)
     {
     }
+    public virtual DbSet<Bill> Bills { get; set; }
+
+    public virtual DbSet<Service> Services { get; set; }
 
     public virtual DbSet<FavoriteList> FavoriteLists { get; set; }
 
@@ -50,6 +53,55 @@ public partial class QlptContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Bill>(entity =>
+        {
+            entity.HasKey(e => e.BillId).HasName("PK__Bill__D706DDB39A4E4248");
+
+            entity.ToTable("Bill");
+
+            entity.Property(e => e.BillId).HasColumnName("bill_id");
+            entity.Property(e => e.BillStatus).HasColumnName("bill_status");
+            entity.Property(e => e.ExpirationDate).HasColumnName("expiration_date");
+            entity.Property(e => e.PaymentDate).HasColumnName("payment_date");
+            entity.Property(e => e.PostId).HasColumnName("post_id");
+            entity.Property(e => e.ServiceId).HasColumnName("service_id");
+            entity.Property(e => e.TotalPrice)
+                .HasColumnType("decimal(18, 2)")
+                .HasColumnName("total_Price");
+
+            entity.HasOne(d => d.Post).WithMany(p => p.Bills)
+                .HasForeignKey(d => d.PostId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__Bill__post_id__06CD04F7");
+
+            entity.HasOne(d => d.Service).WithMany(p => p.Bills)
+                .HasForeignKey(d => d.ServiceId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__Bill__service_id__07C12930");
+        });
+
+
+        modelBuilder.Entity<Service>(entity =>
+        {
+            entity.HasKey(e => e.ServiceId).HasName("PK__Service__3E0DB8AF2DF3B21F");
+
+            entity.ToTable("Service");
+
+            entity.Property(e => e.ServiceId).HasColumnName("service_id");
+            entity.Property(e => e.ServiceDescription)
+                .HasMaxLength(255)
+                .HasColumnName("service_description");
+            entity.Property(e => e.ServiceName)
+                .HasMaxLength(50)
+                .HasColumnName("service_name");
+            entity.Property(e => e.ServicePrice)
+                .HasColumnType("decimal(18, 2)")
+                .HasColumnName("service_price");
+            entity.Property(e => e.ServiceTime).HasColumnName("service_time");
+        });
+
+
+
         modelBuilder.Entity<FavoriteList>(entity =>
         {
             entity.HasKey(e => e.FavoriteListId).HasName("PK__Favorite__2795432374E74827");

@@ -1,34 +1,70 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\HKI 2024-2025\\SmartRoomManagement\\",
+  "WorkspaceRootPath": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|d:\\hki 2024-2025\\smartroommanagement\\finalproject\\views\\roompost\\manageroom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|d:\\study\\nam4\\finaldoan\\smartroommanagement\\finalproject\\controllers\\registerservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\registerservicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|d:\\study\\nam4\\finaldoan\\smartroommanagement\\finalproject\\services\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\services\\registerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|d:\\study\\nam4\\finaldoan\\smartroommanagement\\finalproject\\views\\registerservice\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\registerservice\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|d:\\study\\nam4\\finaldoan\\smartroommanagement\\finalproject\\helpers\\paypalclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\helpers\\paypalclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|d:\\study\\nam4\\finaldoan\\smartroommanagement\\finalproject\\viewmodels\\servicevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\viewmodels\\servicevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|d:\\study\\nam4\\finaldoan\\smartroommanagement\\finalproject\\viewmodels\\billvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\viewmodels\\billvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|d:\\study\\nam4\\finaldoan\\smartroommanagement\\finalproject\\data\\qlptcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\data\\qlptcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|d:\\study\\nam4\\finaldoan\\smartroommanagement\\finalproject\\data\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\data\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|d:\\study\\nam4\\finaldoan\\smartroommanagement\\finalproject\\data\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\data\\bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|d:\\study\\nam4\\finaldoan\\smartroommanagement\\finalproject\\views\\roompost\\manageroom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\roompost\\manageroom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|d:\\hki 2024-2025\\smartroommanagement\\finalproject\\views\\favoritelist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\favoritelist\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|d:\\study\\nam4\\finaldoan\\smartroommanagement\\finalproject\\views\\registerservice\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\registerservice\\homepage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|d:\\hki 2024-2025\\smartroommanagement\\finalproject\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\services\\roomservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|d:\\study\\nam4\\finaldoan\\smartroommanagement\\finalproject\\views\\roompost\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\roompost\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|d:\\hki 2024-2025\\smartroommanagement\\finalproject\\views\\shared\\components\\roomtypemenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|d:\\study\\nam4\\finaldoan\\smartroommanagement\\finalproject\\views\\shared\\components\\roomtypemenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\shared\\components\\roomtypemenu\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|d:\\hki 2024-2025\\smartroommanagement\\finalproject\\controllers\\roompostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\roompostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|d:\\study\\nam4\\finaldoan\\smartroommanagement\\finalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|d:\\hki 2024-2025\\smartroommanagement\\finalproject\\controllers\\favoritelistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\controllers\\favoritelistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|d:\\study\\nam4\\finaldoan\\smartroommanagement\\finalproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|d:\\hki 2024-2025\\smartroommanagement\\finalproject\\viewmodels\\favoritelistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\viewmodels\\favoritelistvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|d:\\study\\nam4\\finaldoan\\smartroommanagement\\finalproject\\views\\registerservice\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A2BA19-F762-4278-9011-AC4F177BC56D}|FinalProject\\FinalProject.csproj|solutionrelative:finalproject\\views\\registerservice\\success.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,102 +73,228 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "DockedWidth": 248,
+          "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "D:\\HKI 2024-2025\\SmartRoomManagement\\FinalProject\\Views\\Shared\\Components\\RoomTypeMenu\\Default.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\Components\\RoomTypeMenu\\Default.cshtml",
-              "ToolTip": "D:\\HKI 2024-2025\\SmartRoomManagement\\FinalProject\\Views\\Shared\\Components\\RoomTypeMenu\\Default.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\Shared\\Components\\RoomTypeMenu\\Default.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC8AAAAoAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "ManageRoom.cshtml",
+              "DocumentMoniker": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Views\\RoomPost\\ManageRoom.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\RoomPost\\ManageRoom.cshtml",
+              "ToolTip": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Views\\RoomPost\\ManageRoom.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\RoomPost\\ManageRoom.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T16:12:37.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\HKI 2024-2025\\SmartRoomManagement\\FinalProject\\Views\\FavoriteList\\Index.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\FavoriteList\\Index.cshtml",
-              "ToolTip": "D:\\HKI 2024-2025\\SmartRoomManagement\\FinalProject\\Views\\FavoriteList\\Index.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\FavoriteList\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACYAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T16:09:58.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RoomService.cs",
-              "DocumentMoniker": "D:\\HKI 2024-2025\\SmartRoomManagement\\FinalProject\\Services\\RoomService.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Services\\RoomService.cs",
-              "ToolTip": "D:\\HKI 2024-2025\\SmartRoomManagement\\FinalProject\\Services\\RoomService.cs",
-              "RelativeToolTip": "FinalProject\\Services\\RoomService.cs",
-              "ViewState": "AgIAACkBAAAAAAAAAAAYwDIBAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T16:02:19.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FavoriteListController.cs",
-              "DocumentMoniker": "D:\\HKI 2024-2025\\SmartRoomManagement\\FinalProject\\Controllers\\FavoriteListController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Controllers\\FavoriteListController.cs",
-              "ToolTip": "D:\\HKI 2024-2025\\SmartRoomManagement\\FinalProject\\Controllers\\FavoriteListController.cs",
-              "RelativeToolTip": "FinalProject\\Controllers\\FavoriteListController.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAswCEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T15:59:54.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FavoriteListVM.cs",
-              "DocumentMoniker": "D:\\HKI 2024-2025\\SmartRoomManagement\\FinalProject\\ViewModels\\FavoriteListVM.cs",
-              "RelativeDocumentMoniker": "FinalProject\\ViewModels\\FavoriteListVM.cs",
-              "ToolTip": "D:\\HKI 2024-2025\\SmartRoomManagement\\FinalProject\\ViewModels\\FavoriteListVM.cs",
-              "RelativeToolTip": "FinalProject\\ViewModels\\FavoriteListVM.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAkAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T15:56:40.106Z",
+              "WhenOpened": "2024-11-05T15:53:12.415Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ManageRoom.cshtml",
-              "DocumentMoniker": "D:\\HKI 2024-2025\\SmartRoomManagement\\FinalProject\\Views\\RoomPost\\ManageRoom.cshtml",
-              "RelativeDocumentMoniker": "FinalProject\\Views\\RoomPost\\ManageRoom.cshtml",
-              "ToolTip": "D:\\HKI 2024-2025\\SmartRoomManagement\\FinalProject\\Views\\RoomPost\\ManageRoom.cshtml",
-              "RelativeToolTip": "FinalProject\\Views\\RoomPost\\ManageRoom.cshtml",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAowEoAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T15:53:12.415Z",
+              "Title": "RegisterServiceController.cs",
+              "DocumentMoniker": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Controllers\\RegisterServiceController.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Controllers\\RegisterServiceController.cs",
+              "ToolTip": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Controllers\\RegisterServiceController.cs",
+              "RelativeToolTip": "FinalProject\\Controllers\\RegisterServiceController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAD4vysAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T06:43:12.469Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "RoomPostController.cs",
-              "DocumentMoniker": "D:\\HKI 2024-2025\\SmartRoomManagement\\FinalProject\\Controllers\\RoomPostController.cs",
-              "RelativeDocumentMoniker": "FinalProject\\Controllers\\RoomPostController.cs",
-              "ToolTip": "D:\\HKI 2024-2025\\SmartRoomManagement\\FinalProject\\Controllers\\RoomPostController.cs",
-              "RelativeToolTip": "FinalProject\\Controllers\\RoomPostController.cs",
-              "ViewState": "AgIAAFcBAAAAAAAAAAAIwGUBAAAiAAAAAAAAAA==",
+              "Title": "ServiceVM.cs",
+              "DocumentMoniker": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\ViewModels\\ServiceVM.cs",
+              "RelativeDocumentMoniker": "FinalProject\\ViewModels\\ServiceVM.cs",
+              "ToolTip": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\ViewModels\\ServiceVM.cs",
+              "RelativeToolTip": "FinalProject\\ViewModels\\ServiceVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T08:55:19.688Z",
+              "WhenOpened": "2024-11-06T06:53:50.674Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterService.cs",
+              "DocumentMoniker": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Services\\RegisterService.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Services\\RegisterService.cs",
+              "ToolTip": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Services\\RegisterService.cs",
+              "RelativeToolTip": "FinalProject\\Services\\RegisterService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T06:44:00.254Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Views\\RegisterService\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\RegisterService\\Index.cshtml",
+              "ToolTip": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Views\\RegisterService\\Index.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\RegisterService\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACUAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T07:31:21.288Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaypalClient.cs",
+              "DocumentMoniker": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Helpers\\PaypalClient.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Helpers\\PaypalClient.cs",
+              "ToolTip": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Helpers\\PaypalClient.cs",
+              "RelativeToolTip": "FinalProject\\Helpers\\PaypalClient.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAArwLIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T08:10:47.551Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\appsettings.json",
+              "RelativeDocumentMoniker": "FinalProject\\appsettings.json",
+              "ToolTip": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\appsettings.json",
+              "RelativeToolTip": "FinalProject\\appsettings.json",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-06T08:07:38.11Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Program.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Program.cs",
+              "ToolTip": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Program.cs",
+              "RelativeToolTip": "FinalProject\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T07:32:26.288Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Success.cshtml",
+              "DocumentMoniker": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Views\\RegisterService\\Success.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\RegisterService\\Success.cshtml",
+              "ToolTip": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Views\\RegisterService\\Success.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\RegisterService\\Success.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T09:07:47.771Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BillVM.cs",
+              "DocumentMoniker": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\ViewModels\\BillVM.cs",
+              "RelativeDocumentMoniker": "FinalProject\\ViewModels\\BillVM.cs",
+              "ToolTip": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\ViewModels\\BillVM.cs",
+              "RelativeToolTip": "FinalProject\\ViewModels\\BillVM.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:54:56.833Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Bill.cs",
+              "DocumentMoniker": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Data\\Bill.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Data\\Bill.cs",
+              "ToolTip": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Data\\Bill.cs",
+              "RelativeToolTip": "FinalProject\\Data\\Bill.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:55:01.729Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Service.cs",
+              "DocumentMoniker": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Data\\Service.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Data\\Service.cs",
+              "ToolTip": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Data\\Service.cs",
+              "RelativeToolTip": "FinalProject\\Data\\Service.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA5wBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T07:22:33.509Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QlptContext.cs",
+              "DocumentMoniker": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Data\\QlptContext.cs",
+              "RelativeDocumentMoniker": "FinalProject\\Data\\QlptContext.cs",
+              "ToolTip": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Data\\QlptContext.cs",
+              "RelativeToolTip": "FinalProject\\Data\\QlptContext.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAADwv2YAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T16:00:23.346Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomePage.cshtml",
+              "DocumentMoniker": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Views\\RegisterService\\HomePage.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\RegisterService\\HomePage.cshtml",
+              "ToolTip": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Views\\RegisterService\\HomePage.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\RegisterService\\HomePage.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAF8AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T15:30:11.823Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Views\\Shared\\Components\\RoomTypeMenu\\Default.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\Shared\\Components\\RoomTypeMenu\\Default.cshtml",
+              "ToolTip": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Views\\Shared\\Components\\RoomTypeMenu\\Default.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\Shared\\Components\\RoomTypeMenu\\Default.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-07T15:28:13.499Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Views\\RoomPost\\Index.cshtml",
+              "RelativeDocumentMoniker": "FinalProject\\Views\\RoomPost\\Index.cshtml",
+              "ToolTip": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\Views\\RoomPost\\Index.cshtml",
+              "RelativeToolTip": "FinalProject\\Views\\RoomPost\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T07:24:47.788Z",
+              "IsPinned": true,
               "EditorCaption": ""
             }
           ]

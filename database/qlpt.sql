@@ -140,6 +140,44 @@ CREATE TABLE Room_Coordinates (
     longitude FLOAT NOT NULL
 );
 
+CREATE TABLE Service (
+	service_id INT PRIMARY KEY IDENTITY(1,1),
+	service_name NVARCHAR(50) NOT NULL,
+	service_description NVARCHAR(255),
+	service_price DECIMAL(18,2),
+	service_time INT
+);
+
+INSERT INTO Service (service_name, service_description,service_price,service_time)
+VALUES 
+(N'Tin VIP Nổi Bật', N'Tin được hiển thị nổi bật đầu trang',2000,30),
+(N'Tin VIP Độc Đáo', N'Tin được In Hoa màu đỏ nổi bật',1500,30),
+(N'Tin VIP Sang Trọng', N'Tin được In Hoa màu xanh sang trọng',1000,30)
+
+CREATE TABLE Bill (
+	bill_id INT PRIMARY KEY IDENTITY(1,1),
+	post_id INT NOT NULL,
+	service_id INT NOT NULL,
+	total_Price DECIMAL(18,2),
+	payment_date DATE,
+	bill_status INT,
+	expiration_date DATE,
+	FOREIGN KEY (post_id) REFERENCES Room_Post(post_id),
+	FOREIGN KEY (service_id) REFERENCES Service(service_id),
+);
+
+INSERT INTO Room_Post (room_name, quantity, room_price, room_size, address, room_description, date_posted, expiration_date, status_id, user_id, room_type_id)
+VALUES 
+(N'Phòng duplex Quận 3', 2, 8000000.00, 45.00, N'456 Nguyễn Thị Minh Khai, Phường 6, Quận 3', N'Phòng duplex sang trọng tại 456 Nguyễn Thị Minh Khai, Quận 3, diện tích 45.00m2, giá thuê 8000000.00 VND. Thích hợp cho 2 người.', '2023-08-15', '2024-08-15', 1, 14, 2),
+(N'Studio Quận 3', 1, 10000000.00, 50.00, N'789 Lê Văn Sỹ, Phường 13, Quận 3', N'Studio hiện đại tại 789 Lê Văn Sỹ, Quận 3, diện tích 50.00m2, giá thuê 10000000.00 VND. Phòng lý tưởng cho 1 người.', '2023-07-10', '2024-07-10', 1, 14, 3),
+(N'Phòng trọ Quận 1', 1, 5500000.00, 35.00, N'101 Nguyễn Đình Chiểu, Phường Đa Kao, Quận 1', N'Phòng trọ tại 101 Nguyễn Đình Chiểu, Quận 1, diện tích 35.00m2, giá thuê 5500000.00 VND. Phòng phù hợp cho 1 người.', '2024-01-01', '2025-01-01', 1, 14, 1);
+
+INSERT INTO Room_Image (post_id,image_url)
+VALUES 
+(24,'room_001.jpg'),
+(25,'room_002.jpg'),
+(26,'room_003.jpg');
+
 ALTER TABLE Room_Post
 ADD CONSTRAINT FK_RoomPost_Coordinates
 FOREIGN KEY (room_coordinate_id) REFERENCES Room_Coordinates(room_coordinate_id);

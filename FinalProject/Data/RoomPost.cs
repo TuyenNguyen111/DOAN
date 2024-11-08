@@ -39,4 +39,5 @@ public partial class RoomPost
 
     public virtual RoomStatus? Status { get; set; }
     public virtual RoomCoordinates RoomCoordinate { get; set; }
+    public virtual ICollection<Bill> Bills { get; set; } = new List<Bill>();
 }

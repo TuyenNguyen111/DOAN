@@ -85,8 +85,8 @@
                                     </button>
                                 </form>
 
-                                <form asp-action="RegisterService" asp-controller="FavoriteList" method="post" style="display: inline;">
-                                    <input type="hidden" name="idPhong" value="@item.PostId" />
+                                <form asp-action="SetPostId" asp-controller="RegisterService" method="post" style="display: inline;">
+                                    <input type="hidden" name="postId" value="@item.PostId" />
                                     <button type="submit" class="btn btn-md rounded-circle bg-light border mt-4" title="Register Service">
                                         <i class="fa fa-check text-success"></i>
                                     </button>

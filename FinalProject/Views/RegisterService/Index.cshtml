@@ -1,0 +1,97 @@
+﻿@model List<FinalProject.ViewModels.ServiceVM>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+@{
+    ViewData["Title"] = "RegisterServices";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+@section BreadCum {
+    <div class="hero page-inner overlay"
+         style="background-image: url('@Url.Content("~/images/hero_bg_1.jpg")')">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-9 text-center mt-5">
+                    <h1 class="heading" data-aos="fade-up">Services</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<script src="https://www.paypal.com/sdk/js?client-id=@ViewBag.PaypalClientId"></script>
+
+<script>
+    function initializePaypalButtons(serviceId) {
+        paypal.Buttons({
+            style: {
+                layout: 'vertical',
+                color: 'silver',
+                tagline: 'false'
+            },
+            createOrder: function () {
+                console.log("Creating order for service ID:", serviceId);
+                return fetch(`/RegisterService/create-paypal-order?serviceId=${serviceId}`, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({ serviceId: serviceId })
+                }).then((response) => {
+                    if (!response.ok) {
+                        return response.json().then(error => { throw error; });
+                    }
+                    return response.json();
+                }).then(order => {
+         
+                    fetch(`/RegisterService/SaveServiceId?serviceId=${serviceId}`, {
+                        method: "POST"
+                    });
+                    return order.id;
+                }).catch(error => alert(error.message));
+            },
+            onApprove: function (data) {
+                console.log("Order approved for service ID:", serviceId, "Order ID:", data.orderID);
+                return fetch(`/RegisterService/capture-paypal-order?orderId=${data.orderID}`, {
+                    method: "POST",
+                }).then(response => {
+                    if (!response.ok) {
+                        return response.json().then(error => { throw error; });
+                    }
+                    window.location.href = "/RegisterService/Success";
+                }).catch(error => alert(error.message));
+            }
+        }).render(`#paypal-button-container-${serviceId}`);
+    }
+
+</script>
+<div class="section bg-light">
+    <div class="container">
+        <div class="row justify-content-center">
+           
+            @foreach (var service in Model)
+            {
+                var serviceId = service.serviceId;
+                <div class="col-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="300">
+                    <div class="box-feature mb-4">
+                        <span class="flaticon-house mb-4 d-block" style="color: #005555"></span>
+                        <h3 class="mb-3 font-weight-bold" style="color:#005555">@service.serviceName</h3>
+                        <h3 class="price mb-3 font-weight-bold" style="color: #005555"><span>@service.servicePrice.ToString("N0") đ</span></h3>
+                      
+                        <p class="text-black-50">@service.serviceDescription</p>
+                        @*      <a class="btn btn-primary py-2 px-3" href="#">Buy</a> *@
+
+                        <div id="paypal-button-container-@serviceId" data-service-id="@serviceId" style="max-width:1000px;"></div>
+ 
+                        <script>
+                            initializePaypalButtons(@serviceId);
+                        </script>
+
+                    </div>
+                </div>
+            }
+           
+        </div>
+    </div>
+</div>

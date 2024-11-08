@@ -43,6 +43,7 @@ builder.Services.AddScoped<UserService>();
 builder.Services.AddScoped<FavoriteListService>();
 builder.Services.AddScoped<RoomService>();
 
+builder.Services.AddScoped<RegisterService>();
 
 builder.Services.AddCors(options =>
 {
@@ -56,6 +57,13 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddHttpClient<GeocodeController>();
+
+//đăng ký PaypalClient dạng Singleton() - chỉ có 1 instance duy nhất trong toàn ứng dụng
+builder.Services.AddSingleton(x => new PaypalClient(
+    builder.Configuration["PaypalOptions:AppId"],
+    builder.Configuration["PaypalOptions:AppSecret"],
+    builder.Configuration["PaypalOptions:Mode"]
+    ));
 
 var app = builder.Build();
 

@@ -1,0 +1,76 @@
+﻿
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+@{
+    ViewData["Title"] = "Success";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+@section BreadCum {
+    <div class="hero page-inner overlay"
+         style="background-image: url('@Url.Content("~/images/hero_bg_1.jpg")')">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-9 text-center mt-5">
+                    <h1 class="heading" data-aos="fade-up">Services</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,900&display=swap" rel="stylesheet">
+</head>
+<style>
+     .body {
+         text-align: center;
+         padding: 0;
+         margin: 0;
+   
+     }
+
+      h1 {
+          color: #88B04B;
+          font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+          font-weight: 900;
+          font-size: 40px;
+          margin-bottom: 10px;
+      }
+
+    .message {
+          color: #404F5E;
+          font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+          font-size: 20px;
+          margin: 0;
+      }
+
+      .checkmark {
+          color: #9ABC66;
+          font-size: 100px;
+          line-height: 200px;
+          margin-left: -15px;
+      }
+
+        .card {
+            background: white;
+            padding: 60px;
+          
+            margin: 0 auto;
+        }
+</style>
+<div class="body">
+    <div class="card">
+        <div style="border-radius:200px; height:200px; width:200px; background: #F8FAF5; margin:0 auto;">
+            <i class="checkmark">✓</i>
+        </div>
+        <h1>Success</h1>
+        <p class="message">Your payment has been successfully processed<br />Thank you for choosing our services</p>
+    </div>
+</div>
+</html>

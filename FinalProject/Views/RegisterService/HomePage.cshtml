@@ -1,0 +1,158 @@
+﻿<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+@{
+    ViewData["Title"] = "Services";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+@section BreadCum {
+    <div class="hero page-inner overlay"
+         style="background-image: url('@Url.Content("~/images/hero_bg_2.jpg")')">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-9 text-center mt-5">
+                    <h1 class="heading" data-aos="fade-up">Services</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+<style>
+    .description-detail img {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .highlight-box {
+        background-color: ghostwhite;
+        border: 2px solid #FFEB3B;
+        border-radius: 8px;
+        padding: 25px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+        .highlight-box:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+
+        .highlight-box h3 {
+            font-size: 1.4em;
+        }
+
+    .custom-color {
+        color: #005555;
+    }
+</style>
+<div class="section bg-light">
+    <div class="container">
+
+        <div class="description-box p-4 mb-5" style="background-color: #f8f9fa; border: 1px solid #dee2e6; border-radius: 5px;" data-aos="fade-up" data-aos-delay="300">
+            <h2 class="text-center text-primary font-weight-bold">Chào mừng bạn đến với trang web của chúng tôi</h2>
+
+            <p class="text-center mb-0">
+                Nền tảng tối ưu dành cho chủ nhà và người tìm phòng trọ. Với mục tiêu mang đến trải nghiệm tìm kiếm và quản lý phòng trọ tiện lợi, hiện đại, trang web của chúng tôi không chỉ giúp bạn dễ dàng tìm thấy các phòng trọ phù hợp mà còn hỗ trợ các chủ trọ quản lý tin đăng một cách hiệu quả.
+            </p>
+            <p class="text-center mb-0">
+                Khi đăng ký dịch vụ tại website của chúng tôi, tin đăng của bạn sẽ tiếp cận hàng ngàn người dùng mỗi ngày, gia tăng khả năng cho thuê nhanh chóng và hiệu quả!
+            </p>
+        </div>
+
+        <div class="row justify-content-center">
+            <!-- Tin VIP Nổi Bật -->
+            <div class="col-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="300">
+                <div class="box-feature highlight-box mb-4">
+                    <h3 class="mb-3 font-weight-bold" style="color:orange">Tin VIP Nổi Bật</h3>
+                    <h3 class="mb-3 font-weight-bold" style="color:orange">2.000.000đ</h3>
+                    <p style="color:orange">Hiển thị đầu trang với sự nổi bật nhất</p>
+                    <p style="color:orange">Trong 30 ngày</p>
+                    <p style="color:orange">Chỉ 66.666đ/ngày</p>
+                    <p><a href="#1" class="learn-more" style="color: black">Tìm hiểu thêm</a></p>
+                </div>
+            </div>
+
+            <!-- Tin VIP Độc Đáo -->
+            <div class="col-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="400">
+                <div class="box-feature highlight-box mb-4" style="border-color: red;">
+                    <h3 class="mb-3 font-weight-bold" style="color: red">Tin VIP Độc Đáo</h3>
+                    <h3 class="mb-3 font-weight-bold" style="color: red">1.500.000đ</h3>
+                    <p style="color: red">IN HOA màu đỏ nổi bật</p>
+                    <p style="color: red">Trong 30 ngày</p>
+                    <p style="color: red">Chỉ 50.000đ/ngày</p>
+                    <p><a href="#2" class="learn-more" style="color: black">Tìm hiểu thêm</a></p>
+                </div>
+            </div>
+
+            <!-- Tin VIP Sang Trọng -->
+            <div class="col-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="500">
+                <div class="box-feature highlight-box mb-4" style="border-color: dodgerblue;">
+                    <h3 class="mb-3 font-weight-bold" style="color: dodgerblue">Tin VIP Sang Trọng</h3>
+                    <h3 class="mb-3 font-weight-bold" style="color: dodgerblue">1.000.000đ</h3>
+                    <p style="color: dodgerblue">IN HOA màu xanh dịu nhẹ</p>
+                    <p style="color: dodgerblue">Trong 30 ngày</p>
+                    <p style="color: dodgerblue">Chỉ 33.333đ/ngày</p>
+                    <p><a href="#3" class="learn-more" style="color: black">Tìm hiểu thêm</a></p>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="1" class="description-detail p-5 mb-5" style="background-color:  white; border-radius: 5px;">
+            <h2 class="font-weight-bold text-primary custom-color">Tin VIP Nổi Bật</h2>
+            <p>
+                Đặc điểm: Tiêu đề được nổi bật trên đầu trang, kích cỡ lớn cùng nhiều hình ảnh hơn các tin khác.
+            </p>
+            <p>
+                Vị trí hiển thị: Luôn xuất hiện đầu tiên trong mục tin nổi bật của trang và nằm trên tất cả các tin khác.
+            </p>
+            <p>
+                Ưu đãi: Hưởng ưu tiên tối đa, mang lại hiệu quả giao dịch cao nhất nhờ thu hút sự chú ý ngay từ cái nhìn đầu tiên.
+            </p>
+            <img src="@Url.Content("~/images/service.png")" alt="Ảnh Tin VIP Nổi Bật" class="img-fluid mb-4">
+        </div>
+
+        <div id="2" class="description-detail p-5 mb-5" style="background-color:  white; border-radius: 5px;">
+            <h2 class="font-weight-bold text-primary custom-color">Tin VIP Độc Đáo</h2>
+            <p>
+                Đặc điểm: Tiêu đề được IN HOA màu đỏ nổi bật, kích cỡ lớn cùng nhiều hình ảnh hơn các tin khác.
+            </p>
+            <p>
+                Vị trí hiển thị: Luôn xuất hiện đầu tiên trong mục tin nổi bật của trang và nằm trên tất cả các tin khác.
+            </p>
+            <p>
+                Ưu đãi: Hưởng ưu tiên tối đa, mang lại hiệu quả giao dịch cao nhất nhờ thu hút sự chú ý ngay từ cái nhìn đầu tiên.
+            </p>
+            <img src="@Url.Content("~/images/service.png")" alt="Ảnh Tin VIP Độc Đáo" class="img-fluid mb-4">
+        </div>
+
+        <div id="3" class="description-detail p-5 mb-5" style="background-color: white; border-radius: 5px;">
+            <h2 class="font-weight-bold text-primary custom-color">Tin VIP Sang Trọng</h2>
+            <p>
+                Đặc điểm: Tiêu đề được IN HOA màu xanh sang trọng, kích cỡ lớn cùng nhiều hình ảnh hơn các tin khác.
+            </p>
+            <p>
+                Vị trí hiển thị: Luôn xuất hiện đầu tiên trong mục tin nổi bật của trang và nằm trên tất cả các tin khác.
+            </p>
+            <p>
+                Ưu đãi: Hưởng ưu tiên tối đa, mang lại hiệu quả giao dịch cao nhất nhờ thu hút sự chú ý ngay từ cái nhìn đầu tiên.
+            </p>
+            <img src="@Url.Content("~/images/service.png")" alt="Ảnh Tin VIP Sang Trọng" class="img-fluid mb-4">
+        </div>
+
+    </div>
+</div>
+
+<script>
+    document.querySelectorAll('.learn-more').forEach(link => {
+        link.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href').substring(1);
+            document.getElementById(targetId).scrollIntoView({ behavior: 'smooth' });
+        });
+    });
+</script>
