@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\FinalProject.csproj": {}
+    "D:\\Study\\nam4\\new\\SmartRoomManagement\\FinalProject\\FinalProject.csproj": {}
   },
   "projects": {
-    "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\FinalProject.csproj": {
+    "D:\\Study\\nam4\\new\\SmartRoomManagement\\FinalProject\\FinalProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\FinalProject.csproj",
+        "projectUniqueName": "D:\\Study\\nam4\\new\\SmartRoomManagement\\FinalProject\\FinalProject.csproj",
         "projectName": "FinalProject",
-        "projectPath": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\FinalProject.csproj",
+        "projectPath": "D:\\Study\\nam4\\new\\SmartRoomManagement\\FinalProject\\FinalProject.csproj",
         "packagesPath": "C:\\Users\\TPUS\\.nuget\\packages\\",
-        "outputPath": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\obj\\",
+        "outputPath": "D:\\Study\\nam4\\new\\SmartRoomManagement\\FinalProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

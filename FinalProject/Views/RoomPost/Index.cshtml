@@ -29,7 +29,7 @@
                 </h2>
             </div>
         </div>
-        @await Html.PartialAsync("~/Views/Shared/_SliderPartial.cshtml")
+        @await Component.InvokeAsync("RoomTop", new { serviceId = 1 })
     </div>
 </div>
 

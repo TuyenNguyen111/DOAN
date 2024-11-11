@@ -2,6 +2,7 @@
 using FinalProject.Data;
 using FinalProject.Helpers;
 using FinalProject.Services;
+using FinalProject.ViewModels;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
@@ -44,6 +45,7 @@ builder.Services.AddScoped<FavoriteListService>();
 builder.Services.AddScoped<RoomService>();
 
 builder.Services.AddScoped<RegisterService>();
+builder.Services.AddScoped<BillService>();
 
 builder.Services.AddCors(options =>
 {

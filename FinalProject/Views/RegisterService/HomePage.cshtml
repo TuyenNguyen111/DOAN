@@ -18,6 +18,25 @@
     </div>
 }
 <style>
+
+    .description-detail {
+        border-radius: 5px;
+        padding: 20px;
+        background-color: white;
+    }
+
+    #d1.description-detail {
+        border: 3px solid orange;
+    }
+
+    #d2.description-detail {
+        border: 3px solid red;
+    }
+
+    #d3.description-detail {
+        border: 3px solid dodgerblue;
+    }
+
     .description-detail img {
         width: 100%;
         height: auto;
@@ -72,7 +91,7 @@
                     <p style="color:orange">Hiển thị đầu trang với sự nổi bật nhất</p>
                     <p style="color:orange">Trong 30 ngày</p>
                     <p style="color:orange">Chỉ 66.666đ/ngày</p>
-                    <p><a href="#1" class="learn-more" style="color: black">Tìm hiểu thêm</a></p>
+                    <p><a href="#d1" class="learn-more" style="color: black">Tìm hiểu thêm</a></p>
                 </div>
             </div>
 
@@ -84,7 +103,7 @@
                     <p style="color: red">IN HOA màu đỏ nổi bật</p>
                     <p style="color: red">Trong 30 ngày</p>
                     <p style="color: red">Chỉ 50.000đ/ngày</p>
-                    <p><a href="#2" class="learn-more" style="color: black">Tìm hiểu thêm</a></p>
+                    <p><a href="#d2" class="learn-more" style="color: black">Tìm hiểu thêm</a></p>
                 </div>
             </div>
 
@@ -96,13 +115,13 @@
                     <p style="color: dodgerblue">IN HOA màu xanh dịu nhẹ</p>
                     <p style="color: dodgerblue">Trong 30 ngày</p>
                     <p style="color: dodgerblue">Chỉ 33.333đ/ngày</p>
-                    <p><a href="#3" class="learn-more" style="color: black">Tìm hiểu thêm</a></p>
+                    <p><a href="#d3" class="learn-more" style="color: black">Tìm hiểu thêm</a></p>
                 </div>
             </div>
         </div>
 
 
-        <div id="1" class="description-detail p-5 mb-5" style="background-color:  white; border-radius: 5px;">
+        <div id="d1" class="description-detail p-5 mb-5" style="background-color:  white; border-radius: 5px;">
             <h2 class="font-weight-bold text-primary custom-color">Tin VIP Nổi Bật</h2>
             <p>
                 Đặc điểm: Tiêu đề được nổi bật trên đầu trang, kích cỡ lớn cùng nhiều hình ảnh hơn các tin khác.
@@ -116,7 +135,7 @@
             <img src="@Url.Content("~/images/service.png")" alt="Ảnh Tin VIP Nổi Bật" class="img-fluid mb-4">
         </div>
 
-        <div id="2" class="description-detail p-5 mb-5" style="background-color:  white; border-radius: 5px;">
+        <div id="d2" class="description-detail p-5 mb-5" style="background-color:  white; border-radius: 5px;">
             <h2 class="font-weight-bold text-primary custom-color">Tin VIP Độc Đáo</h2>
             <p>
                 Đặc điểm: Tiêu đề được IN HOA màu đỏ nổi bật, kích cỡ lớn cùng nhiều hình ảnh hơn các tin khác.
@@ -130,7 +149,7 @@
             <img src="@Url.Content("~/images/service.png")" alt="Ảnh Tin VIP Độc Đáo" class="img-fluid mb-4">
         </div>
 
-        <div id="3" class="description-detail p-5 mb-5" style="background-color: white; border-radius: 5px;">
+        <div id="d3" class="description-detail p-5 mb-5" style="background-color: white; border-radius: 5px; border-color: dodgerblue;">
             <h2 class="font-weight-bold text-primary custom-color">Tin VIP Sang Trọng</h2>
             <p>
                 Đặc điểm: Tiêu đề được IN HOA màu xanh sang trọng, kích cỡ lớn cùng nhiều hình ảnh hơn các tin khác.

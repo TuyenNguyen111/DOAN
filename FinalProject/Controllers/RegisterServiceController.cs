@@ -21,10 +21,13 @@ namespace FinalProject.Controllers
             _registerService = registerService;
             _paypalClient = paypalClient;
         }
+        #region Trang Service tĩnh
         public IActionResult HomePage()
         {
             return View();
         }
+        #endregion
+
         #region RegisterServiceView
         [Authorize]
         public async Task<IActionResult> Index()
@@ -46,7 +49,7 @@ namespace FinalProject.Controllers
             {
                 return BadRequest(new { message = "Service not found." });
             }
-           
+            int postId = (int)TempData["PostId"];
 
             string totalAmount = ConvertToUSD((decimal)service.ServicePrice).ToString("N0");
             var currency = "USD";
@@ -91,6 +94,7 @@ namespace FinalProject.Controllers
                     int billStatus = 1;
                     DateOnly expirationDate = paymentDate.AddDays((int)service.ServiceTime);
 
+
                     await _registerService.CreateBillAsync(postId, serviceId, totalPrice, paymentDate, billStatus, expirationDate);
                     return Ok(response);
                 }
@@ -111,14 +115,30 @@ namespace FinalProject.Controllers
         }
         #endregion
 
+        #region Lấy post id và kiểm tra đã đăng ký dịch vụ hay hết hạn chưa
         [Authorize]
         [HttpPost]
-        public IActionResult SetPostId(int postId)
+        public async Task<IActionResult> SetPostId(int postId)
         {
+            var existingBill = await _db.Bills
+                   .Include(b => b.Service)
+                   .Where(b => b.PostId == postId && b.ExpirationDate >= DateOnly.FromDateTime(DateTime.UtcNow))
+                   .FirstOrDefaultAsync();
+
+            if (existingBill != null)
+            {
+                var serviceName = existingBill.Service?.ServiceName ?? "dịch vụ";
+
+                TempData["FailMessage"] = $"Bạn không thể đăng ký thêm dịch vụ cho bài đăng này vì bạn đã đăng ký dịch vụ {serviceName}.";
+                return RedirectToAction("ManageRoom", "RoomPost");
+              
+            }
             TempData["PostId"] = postId;
             return RedirectToAction("Index");
         }
+        #endregion
 
+        #region lưu service id
         [Authorize]
         [HttpPost]
         public IActionResult SaveServiceId(int serviceId)
@@ -126,7 +146,7 @@ namespace FinalProject.Controllers
             TempData["ServiceId"] = serviceId;
             return Ok();
         }
-
+        #endregion
 
         #region Show history payment
         public async Task<IActionResult> Bills()

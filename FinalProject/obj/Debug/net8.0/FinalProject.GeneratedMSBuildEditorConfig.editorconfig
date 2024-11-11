@@ -17,131 +17,135 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FinalProject
 build_property.RootNamespace = FinalProject
-build_property.ProjectDir = D:\Study\nam4\finaldoan\SmartRoomManagement\FinalProject\
+build_property.ProjectDir = D:\Study\nam4\new\SmartRoomManagement\FinalProject\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Study\nam4\finaldoan\SmartRoomManagement\FinalProject
+build_property.MSBuildProjectDirectory = D:\Study\nam4\new\SmartRoomManagement\FinalProject
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/Customer/ChangePassword.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/Customer/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/Customer/ForgotPassword.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/Customer/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRm9yZ290UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/Customer/ForgotPasswordConfirmation.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/Customer/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcRm9yZ290UGFzc3dvcmRDb25maXJtYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/Customer/Profile.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/Customer/Profile.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcUHJvZmlsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/Customer/Register.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/Customer/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/Customer/ResetPassword.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/Customer/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcUmVzZXRQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/Customer/ResetPasswordConfirmation.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/Customer/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcUmVzZXRQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/Customer/SignIn.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/Customer/SignIn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcU2lnbkluLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/FavoriteList/Index.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/FavoriteList/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3JpdGVMaXN0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/Home/Index.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/Home/Privacy.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/RegisterService/HomePage.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/RegisterService/HomePage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJTZXJ2aWNlXEhvbWVQYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/RegisterService/Index.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/RegisterService/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJTZXJ2aWNlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/RegisterService/Success.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/RegisterService/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJTZXJ2aWNlXFN1Y2Nlc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/RoomPost/Detail.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/RoomPost/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVBvc3RcRGV0YWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/RoomPost/Index.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/RoomPost/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVBvc3RcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/RoomPost/ManageRoom.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/RoomPost/ManageRoom.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVBvc3RcTWFuYWdlUm9vbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/RoomPost/SearchRoom.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/RoomPost/SearchRoom.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVBvc3RcU2VhcmNoUm9vbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/RoomPost/UploadRoomPost.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/RoomPost/UploadRoomPost.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9vbVBvc3RcVXBsb2FkUm9vbVBvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/Shared/Components/Favorite/FavoritePanel.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/Shared/Components/Favorite/FavoritePanel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRmF2b3JpdGVcRmF2b3JpdGVQYW5lbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/Shared/Components/RoomTypeMenu/Default.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/Shared/Components/RoomTop/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUm9vbVRvcFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/Shared/Components/RoomTypeMenu/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUm9vbVR5cGVNZW51XERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/Shared/Components/Search/Default.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/Shared/Components/Search/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2VhcmNoXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/Shared/Components/SliderPartial/Default.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/Shared/Components/SliderPartial/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2xpZGVyUGFydGlhbFxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/Shared/Error.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/Shared/_LayoutCustomer.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/Shared/_LayoutCustomer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRDdXN0b21lci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/Shared/_SliderPartial.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/Shared/_SliderPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TbGlkZXJQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/_ViewImports.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/_ViewStart.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Study/nam4/finaldoan/SmartRoomManagement/FinalProject/Views/Shared/_Layout.cshtml]
+[D:/Study/nam4/new/SmartRoomManagement/FinalProject/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1iqdgs6srz

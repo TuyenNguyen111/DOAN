@@ -43,7 +43,7 @@ namespace FinalProject.Controllers
                 CurrentPage = page,
                 TotalPages = totalPages
             };
-
+            
             return View(viewModel);
         }
 

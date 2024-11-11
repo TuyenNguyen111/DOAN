@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RK2ooDWmTHI=",
+  "dgSpecHash": "mHDW15YMKz8=",
   "success": true,
-  "projectFilePath": "D:\\Study\\nam4\\finaldoan\\SmartRoomManagement\\FinalProject\\FinalProject.csproj",
+  "projectFilePath": "D:\\Study\\nam4\\new\\SmartRoomManagement\\FinalProject\\FinalProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TPUS\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\TPUS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
